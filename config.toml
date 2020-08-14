@@ -55,28 +55,22 @@ copyright = "© {year}"
 
 # Controls the navigation
 [[menu.main]]
-  identifier = "about"
-  name = "about"
-  title = "About"
+  identifier = "home"
+  name = "home"
+  title = "home"
   url = "/"
-
-[[menu.main]]
-  identifier = "blog"
-  name = "blog"
-  title = "Blog"
-  url = "/blog"
-
-[[menu.main]]
-  identifier = "thoughts"
-  name = "thoughts"
-  title = "Thoughts"
-  url = "/thoughts"
 
 [[menu.main]]
   identifier = "posts"
   name = "posts"
   title = "Posts"
   url = "/posts"
+
+[[menu.main]]
+  identifier = "notes"
+  name = "notes"
+  title = "Notes"
+  url = "/notes"
 
 [[menu.main]]
   identifier = "TIL"
