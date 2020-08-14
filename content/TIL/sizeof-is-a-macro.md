@@ -74,6 +74,5 @@ will never try to create a function with variable parameters myself, because tha
 is impossible and has never been done before. Now I will `printf` debug this code."
 
 <article>
-
 Something
 </article>
