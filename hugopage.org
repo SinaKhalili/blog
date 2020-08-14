@@ -1,4 +1,4 @@
-#+hugo_base_dir: ~/fun/myblog/
+#+hugo_base_dir: .
 * A goddam blog
   :PROPERTIES:
   :EXPORT_HUGO_SECTION:
@@ -12,12 +12,20 @@
 *** posts
     :PROPERTIES:
     :EXPORT_FILE_NAME: _index
+    :EXPORT_HUGO_AUTO_SET_LASTMOD: t
     :END:
-    These are the posts I'll be posting on my blog
+    
+    These are classical long-form wi-fi high rise hippie chippie
+    brogrammer yo hammer hobble gobble of blubber gobbling logs
+    long while logging global blahs blog posts.
+
+    I've tried to use the "tags" properly so they're probably
+    going to be random essays spanning varying subjects.
     
 *** One bad night
     :PROPERTIES:
     :EXPORT_FILE_NAME: bad-night
+    :EXPORT_HUGO_AUTO_SET_LASTMOD: t
     :END:
    
     Someone is here... I think!
@@ -25,29 +33,44 @@
 *** Another bad night
     :PROPERTIES:
     :EXPORT_FILE_NAME: another
+    :EXPORT_HUGO_AUTO_SET_LASTMOD: t
     :END:
     
     Yet another bad night! How unfortunate
     
-** thoughts
+** notes
    :PROPERTIES:
-   :EXPORT_HUGO_SECTION: thoughts
+   :EXPORT_HUGO_SECTION: notes
    :END:
    
-*** thoughts
+*** notes
     :PROPERTIES:
     :EXPORT_FILE_NAME: _index
     :END:
+    This section is a ever-updating ever changing collection
+    of notes. If I'm doing my job right, they'll be super
+    interconnected like wikipedia. This style of notetaking
+    will hopefully create an emergent intelligence much 
+    smarter than myself. I am confident this will work
+    because I read about it on the internet.
+
+    So I join the ranks of those super
+    smart people - the best researchers! Most known
+    for their great and interconnected notes.
+
+    With the exception, of course, of Literally Every Researcher I Know.
     
-**** This section  is devoted to the various type of thoughts I can have.
-     I once started doing meditation. That's when I realized...
-     I sure do have a lot of thoughts. After a while of consciously listening
-     to my thoughts, I saw there were some repeating patterns. So here I have decided to 
-     demonstrate (one possible, and possibly wrong) taxonomy of thoughts.
-   
+    Anyways here are the broad categories... 
+      - Rationality
+      - Meditation
+      - Hacking
+
+    The plan is to make a page accessible from any other page.
+    
 *** Forward-Fake memories
     :PROPERTIES:
-    :EXPORT_FILE_NAME: memories
+    :EXPORT_FILE_NAME: forward-fake-memories
+    :EXPORT_HUGO_AUTO_SET_LASTMOD: t
     :END:
      
     These are memories (or, possible future scenarios)
@@ -55,7 +78,8 @@
 
 *** Backward-Fake memories
     :PROPERTIES:
-    :EXPORT_FILE_NAME: backwards-memories
+    :EXPORT_FILE_NAME: backwards-fake-memories
+    :EXPORT_HUGO_AUTO_SET_LASTMOD: t
     :END:
     
     Opposite to [[*Forward-Fake memories]], backward fake memories imagine strange
