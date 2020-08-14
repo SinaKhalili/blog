@@ -10,12 +10,28 @@
       {{ .Params.subheading }}
     </h2>
     <p>
-      Recently consumed media: 
+      Recent long-form blog posts:
       <ul>
-        {{ range .Pages }}
-         <li>{{ .Title }}</li> 
+        {{ range first 3 (where .Pages "Section" "posts") }}
+          <li><a href="{{ .Permalink }}"> {{ .Title }}</a></li>
         {{ end }}
       </ul>
+    </p>
+    <p>
+      Most recently updated notes:
+      <ul>
+          {{ range first 3 (where .Pages "Section" "notes") }}
+            <li><a href="{{ .Permalink }}"> {{ .Title }}</a></li>
+          {{ end }}
+      </ul>
+    </p>
+    <p>
+      Things I've learned recently:
+        <ul>
+            {{ range first 3 (where .Pages "Section" "TIL") }}
+            <li><a href="{{ .Permalink }}"> {{ .Title }}</a></li>
+            {{ end }}
+        </ul>
     </p>
     {{ partial "social-icons.html" .}}
   </div>
