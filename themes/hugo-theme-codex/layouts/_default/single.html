@@ -11,7 +11,6 @@
           <header class="post__header">
             <h1 id="post__title">{{.Title}}</h1>
             {{ if .Date }}<time datetime="{{ .Date }}" class="post__date">{{ .Date.Format $dateFormat }}</time> {{ end }}
-            <h2>You hepto is : {{ .Params.Hepto }} </h2>
           </header>
           <article class="post__content">
               {{ partial "anchored-headings.html" .Content }}
