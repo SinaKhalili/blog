@@ -9,30 +9,50 @@
     <h2>
       {{ .Params.subheading }}
     </h2>
+
     <p>
-      Recent long-form blog posts:
-      <ul>
-        {{ range first 3 (where .Pages "Section" "posts") }}
-          <li><a href="{{ .Permalink }}"> {{ .Title }}</a></li>
+    {{ range (where .Pages "Section" "posts") }}
+      Recent long-form <a class="main-link" href="{{ .Permalink }}">blog posts</a>:
+      <div class="cards-list">
+        {{ range .Pages }}
+        <div class="card-column">
+          <a href="{{ .Permalink }}" style="text-decoration:none;">
+            <div class="card">
+                <h3>{{ .Title }}</h3> 
+            </div>
+          </a>
+        </div>
         {{ end }}
-      </ul>
+      </div>
+    {{ end }}
     </p>
+
     <p>
-      Most recently updated notes:
-      <ul>
-          {{ range first 3 (where .Pages "Section" "notes") }}
-            <li><a href="{{ .Permalink }}"> {{ .Title }}</a></li>
-          {{ end }}
-      </ul>
+    {{ range (where .Pages  "Section" "notes") }}
+    Most recently updated <a class="main-link" href="{{ .Permalink }}">notes</a>:
+        <div class="cards-list">
+          {{ range .Pages }}
+          <div class="card-column">
+            <a class="notes" href="{{ .Permalink }}" style="text-decoration:none;">
+              {{ .Title }} 📝
+            </a>
+          </div>
+          {{end}}
+        </div>
+    {{ end }}
     </p>
+
     <p>
-      Things I've learned recently:
-        <ul>
-            {{ range first 3 (where .Pages "Section" "TIL") }}
-            <li><a href="{{ .Permalink }}"> {{ .Title }}</a></li>
-            {{ end }}
-        </ul>
+    {{ range (where .Pages  "Section" "TIL") }}
+    Things I've <a class="main-link" href="{{ .Permalink }}">learned recently</a>:
+    <div class="cards-list">
+      {{ range first 3 .Pages }}
+        <a class="notes" href="{{ .Permalink }}"> {{ .Title }} 🧠</a>
+      {{ end }}
+    </div>
+    {{ end }}
     </p>
+    
     {{ partial "social-icons.html" .}}
   </div>
 </div>
