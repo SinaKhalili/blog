@@ -55,6 +55,8 @@
     {{ block "main" . }} {{ end }}
   </main>
 
+  {{ block "sidebar" . }} {{ end }}
+  
   {{ block "footer" . }} {{ end }}
 
   {{ $script := resources.Get "js/index.js" | minify | fingerprint }}

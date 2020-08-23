@@ -1,5 +1,13 @@
 @import "../main";
 
+body {
+  display: flex;
+  justify-content: space-evenly;
+  @media screen and (max-width: $medium - 1) {
+    display: block;
+  }
+}
+
 .splash-container {
   display: flex;
   justify-content: center;
@@ -16,7 +24,7 @@
     font-size: 3em;
     line-height: 1;
     letter-spacing: -0.03em;
-    margin: 0;
+    margin-top: 0.3em;
   }
 
   h2 {
@@ -26,6 +34,40 @@
     max-width: 22em;
     letter-spacing: -0.03em;
   }
+}
+
+.sidebar {
+  background: rgb(163, 160, 203);
+  background: linear-gradient(90deg, #e0eafc, #cfdef3);
+  border-radius: 8px;
+  flex: 0 0 300px;
+  padding: 1rem 1.5rem 1rem;
+  overflow: auto;
+  margin-bottom: 0.275em;
+
+  @media screen and (max-width: $medium - 1) {
+    .sidebar-text:after {
+      content: " just kidding it's a bottom bar what an awesome mobile site";
+    }
+
+    .extra-stuff {
+      display: none;
+    }
+  }
+
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+  }
+  h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  margin-top: 0.275em;
+  letter-spacing: 0.5px;
 }
 
 .fancy {
@@ -49,7 +91,16 @@
 main {
   padding-top: 0;
   padding-bottom: 0;
-  height: 100%;
+}
+
+.nav {
+  @media screen and (min-width: $medium) {
+    position: static;
+    display: block;
+    visibility: visible;
+    padding-top: 3em;
+    width: $navWidth;
+  }
 }
 
 .social-icons {

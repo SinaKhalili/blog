@@ -17,6 +17,6 @@ main {
   }
 
   @media screen and (max-width: $medium - 1) {
-    padding-top: calc(3rem + #{$burgerContainerHeight});
+    // padding-top: calc(3rem + #{$burgerContainerHeight});
   }
 }

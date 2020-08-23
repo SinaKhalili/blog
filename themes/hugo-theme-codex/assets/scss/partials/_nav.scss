@@ -11,6 +11,7 @@
   z-index: 1;
 
   @media screen and (min-width: $medium) {
+    // position: static;
     display: block;
     visibility: visible;
     padding-top: 3em;

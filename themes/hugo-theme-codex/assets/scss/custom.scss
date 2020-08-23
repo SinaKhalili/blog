@@ -1,7 +1,8 @@
 .cards-list {
   margin: 0 -5px;
   padding-top: 20px;
-  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
   text-decoration: none;
 }
 
@@ -17,10 +18,11 @@
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
+  margin-top: 0.5rem;
   height: 7em;
-  width: 16em;
+
   font-weight: bold;
   text-align: left;
   cursor: pointer;

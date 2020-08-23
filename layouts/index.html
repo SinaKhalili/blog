@@ -26,35 +26,94 @@
       </div>
     {{ end }}
     </p>
+  </div>
 
-    <p>
-    {{ range (where .Pages  "Section" "notes") }}
-    Most recently updated <a class="main-link" href="{{ .Permalink }}">notes</a>:
-        <div class="cards-list">
-          {{ range .Pages }}
-          <div class="card-column">
-            <a class="notes" href="{{ .Permalink }}" style="text-decoration:none;">
-              {{ .Title }} 📝
-            </a>
-          </div>
-          {{end}}
+  
+    {{/*  {{ partial "social-icons.html" .}}  */}}
+
+</div>
+{{ end }}
+
+{{ define "sidebar" }}
+
+<div class="sidebar">
+  <h3>
+    ✨ EPIC <span class="sidebar-text">SIDEBAR</span> ✨
+  </h3>
+  <img src="img/gifingif.gif" alt="A very handsome man">
+  <p>
+    <i>Sina Khalili</i><br>
+    <i>"Pretty chill dude overall"</i><br>
+    <i>CS student (see astute ent)</i><br>
+    <i><strong>Open to internships</strong></i><br>
+    <i>In turn to open ships</i> 
+  </p>
+
+  <p>
+  {{ range (where .Pages  "Section" "notes") }}
+  Most recently updated <a class="main-link" href="{{ .Permalink }}">notes</a>:
+      <div class="cards-list">
+        {{ range first 3 .Pages }}
+        <div class="card-column">
+          <a class="notes" href="{{ .Permalink }}" style="text-decoration:none;">
+            {{ .Title }} 📝
+          </a>
         </div>
-    {{ end }}
-    </p>
+        {{end}}
+      </div>
+  {{ end }}
+  </p>
 
-    <p>
-    {{ range (where .Pages  "Section" "TIL") }}
-    Things I've <a class="main-link" href="{{ .Permalink }}">learned recently</a>:
-    <div class="cards-list">
-      {{ range first 3 .Pages }}
-        <a class="notes" href="{{ .Permalink }}"> {{ .Title }} 🧠</a>
-      {{ end }}
+  <p>
+  {{ range (where .Pages  "Section" "TIL") }}
+  Things I've <a class="main-link" href="{{ .Permalink }}">learned recently</a>:
+  <div class="cards-list">
+    {{ range first 3 .Pages }}
+    <div class="card-column">
+      <a class="notes" href="{{ .Permalink }}" style="text-decoration:none;">
+        {{ .Title }} 🧠
+      </a>
     </div>
     {{ end }}
-    </p>
-    
-    {{ partial "social-icons.html" .}}
   </div>
+  {{ end }}
+  </p>
+
+<div class="extra-stuff">
+  <p>
+    Whoa, didn't think you'd get this far (since this is just a sidebar), but
+    now that you're here, let's connect. That's right, I want you to marry me.
+    Right here. Right now. This offer is not open to all genders.
+    First come first serve. Like ice cream. Well I guess
+    there could be some ice cream shops that have reservations. Perhaps even using
+    some sort of an app. In fact, maybe that's a startup idea. Don't steal it. Or
+    if you do, at least get me an ice cream. We are married after all.
+  </p>
+  <p>
+    Anyways since you're here, I thought I might as well share some reviews of
+    myself by the people who have the most unbiased view of me, my friends.
+  </p>
+  <p>
+    "I really don't think you should add the wierd sidebar thing if you're
+    going to link the page to potential employers" - 5 stars
+  </p>
+  <p>
+    "I didn't give a star rating so stop putting that in the sidebar" - 5 stars
+  </p>
+  <p>
+    "The syllable rhymes are not a personality" - 5 stars 
+  </p>
+  <p>
+    Whoa! Even <em>I'm</em> impressed. I'm also an imp rest (they find my back
+    to be the perfect flatness). 
+  </p>
+  <p>
+    👈 Ok back to the regular business. (Let's keep the sidebar stuff between us)
+  </p>
+</div>
+
 </div>
 
 {{ end }}
+
+  
