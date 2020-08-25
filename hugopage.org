@@ -18,21 +18,6 @@
 **** Bloggo my doggo
      Hobble gobbles of blubber wobbling logs - long blogs!
     
-*** One bad night
-    :PROPERTIES:
-    :EXPORT_FILE_NAME: bad-night
-    :EXPORT_HUGO_AUTO_SET_LASTMOD: t
-    :END:
-   
-    Someone is here... I think!
-   
-*** Another bad night
-    :PROPERTIES:
-    :EXPORT_FILE_NAME: another
-    :EXPORT_HUGO_AUTO_SET_LASTMOD: t
-    :END:
-    
-    Yet another bad night! How unfortunate
     
 *** Book review: "CLOSURE" by why the lucky stiff
     :PROPERTIES:
@@ -144,7 +129,7 @@
      have just written it for the power pc. This is the first time _why talks about the central theme
      the book: the *impermanence of software*.
      
-     [[file:kafka.png]]
+     [[file:/images/kafka.png]]
      
      Next _why recounts a conversation he has had with a friend about a Shamylan movie, the conversation
      is annotated with his handwriting that reveal his inner dialogue. 
