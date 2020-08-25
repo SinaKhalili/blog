@@ -9,7 +9,7 @@ copyright = "© {year}"
 
 # Add your Disqus shortname here.
 # disqusShortname = ""
-
+staticDir = ["static"]
 # Add your Google Analytics identifier: UA-XXXXXXXX-X
 # googleAnalytics = "" 
 
