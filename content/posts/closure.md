@@ -1,7 +1,7 @@
 +++
 title = "Book review: \"CLOSURE\" by why the lucky stiff"
 author = ["Sina Khalili"]
-lastmod = 2020-08-25T00:40:01-07:00
+lastmod = 2020-08-25T00:43:19-07:00
 draft = false
 toc = "t"
 +++
