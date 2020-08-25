@@ -1,7 +1,7 @@
 +++
 title = "Another bad night"
-author = ["sina"]
-lastmod = 2020-08-13T23:48:39-07:00
+author = ["Sina Khalili"]
+lastmod = 2020-08-25T00:40:01-07:00
 draft = false
 +++
 

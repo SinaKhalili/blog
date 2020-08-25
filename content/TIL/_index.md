@@ -1,6 +1,6 @@
 +++
 title = "TIL"
-author = ["sina"]
+author = ["Sina Khalili"]
 draft = false
 +++
 

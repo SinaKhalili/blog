@@ -1,6 +1,6 @@
 +++
 title = "sizeof() is a macro, or, how does one understand hello world?"
-author = ["sina"]
+author = ["Sina Khalili"]
 draft = false
 +++
 

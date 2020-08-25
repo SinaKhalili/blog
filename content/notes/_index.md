@@ -1,6 +1,6 @@
 +++
 title = "notes"
-author = ["sina"]
+author = ["Sina Khalili"]
 draft = false
 +++
 
