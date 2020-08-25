@@ -1,7 +1,7 @@
 +++
 title = "Book review: \"CLOSURE\" by why the lucky stiff"
 author = ["Sina Khalili"]
-lastmod = 2020-08-25T00:43:19-07:00
+lastmod = 2020-08-25T00:45:51-07:00
 draft = false
 toc = "t"
 +++
@@ -111,7 +111,7 @@ Then there are handwritten notes about how if Kafka didn't want Amerika to be pu
 have just written it for the power pc. This is the first time \_why talks about the central theme
 the book: the **impermanence of software**.
 
-{{< figure src="/ox-hugo/kafka.png" >}}
+{{< figure src="/images/kafka.png" >}}
 
 Next \_why recounts a conversation he has had with a friend about a Shamylan movie, the conversation
 is annotated with his handwriting that reveal his inner dialogue.
