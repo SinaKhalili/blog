@@ -1,7 +1,7 @@
 +++
 title = "posts"
 author = ["Sina Khalili"]
-lastmod = 2020-08-25T00:45:51-07:00
+lastmod = 2020-08-26T20:30:34-07:00
 draft = false
 +++
 

@@ -81,7 +81,7 @@
      
 **** An avant-garde delivery
      
-     First of all, CLOSURE is no ordinary book. In fact, I wasn't even called CLOSURE. It had no name.
+     First of all, CLOSURE is no ordinary book. In fact, it wasn't even called CLOSURE. It had no name.
      It was originally distributed as a series of PCL files, which are printer control files.
      In order to "read" a PCL file, you must first print it. (Or use a program that interprets it to pdf)
      
@@ -93,7 +93,7 @@
      spool files out of nowhere. They were given in a strange order with punchy names in all caps
      (you can find the files on [[https://github.com/steveklabnik/CLOSURE][GitHub]] thanks to Steve Klabnik).
      
-     The book follows _why for some time, maybe about a month, divided roughly into three parts: 
+     The book follows _why for some time, maybe about a month, divided roughly into four parts: 
      - The author's conversation with his friend
      - The author talking to his dentist
      - The author leaves his normal life to go to the forest
@@ -119,7 +119,7 @@
      the "jerktoasters". When Oprah asks them why they have dropped out of society they reply
      that they wouldn't like to answer that question.
      Oprah, not satisfied with their answer, and failing at persuading them, lights up the stage and
-     the jerktoasters all instantly die, as they were attached a machine which was light sensitive.
+     the jerktoasters all instantly die, as they were attached to a machine which was light sensitive.
      
      The jerktoasters, like _why, prefer to be private, and like _why, when doxxed, decided to commit
      suicide. The important point is that the jerktoasters don't have a specific reason they want to 
