@@ -77,3 +77,21 @@
     background-position: 0 100%;
   }
 }
+
+@keyframes rotfade {
+  0% {
+    transform: rotate(-359deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+
+#blog_pointer {
+  animation-name: rotfade;
+  animation-duration: 1s;
+  max-width: 3ch;
+  margin-bottom: -1ch;
+}
