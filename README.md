@@ -6,3 +6,5 @@ Also, all the posts are generated from an org file using the wonderful [ox-hugo]
 
 Finally, it's all hosted on [Vercel](https://vercel.com/) :heart:
 
+
+Going to have a new one soon!
