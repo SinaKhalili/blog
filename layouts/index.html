@@ -50,33 +50,12 @@
   </p>
 
   <p>
-  {{ range (where .Pages  "Section" "notes") }}
-  Most recently updated <a class="main-link" href="{{ .Permalink }}">notes</a>:
-      <div class="cards-list">
-        {{ range first 3 .Pages }}
-        <div class="card-column">
-          <a class="notes" href="{{ .Permalink }}" style="text-decoration:none;">
-            {{ .Title }} 📝
-          </a>
-        </div>
-        {{end}}
-      </div>
-  {{ end }}
+  Yup. Just me. 
   </p>
-
-  <p>
-  {{ range (where .Pages  "Section" "TIL") }}
-  Things I've <a class="main-link" href="{{ .Permalink }}">learned recently</a>:
-  <div class="cards-list">
-    {{ range first 3 .Pages }}
-    <div class="card-column">
-      <a class="notes" href="{{ .Permalink }}" style="text-decoration:none;">
-        {{ .Title }} 🧠
-      </a>
-    </div>
-    {{ end }}
-  </div>
-  {{ end }}
+  <p>Chillin.</p>
+  <p>Chilling out.</p> 
+  <p>Here. Here in the sidebar. </p>
+  <p>Hangin' loose.</p>
   </p>
 
 <div class="extra-stuff">

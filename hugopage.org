@@ -19,7 +19,20 @@
      Hobble gobbles of blubber wobbling logs - long blogs!
     
     
-*** Book review: "CLOSURE" by why the lucky stiff
+***  asdfasdf
+    
+    :PROPERTIES:
+    :EXPORT_FILE_NAME: closure1
+    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :toc t
+    :EXPORT_HUGO_AUTO_SET_LASTMOD: t
+    :END:
+    
+   
+****  hello
+     
+     This is a test
+    
+*** Book review: CLOSURE by why the lucky stiff
     :PROPERTIES:
     :EXPORT_FILE_NAME: closure
     :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :toc t
@@ -514,7 +527,7 @@
      my lower palm would make an impact with my forehead, and I'd start again.
      And, like, of course it would, there's an extra argument there.
 
-
+     
 **** stdARG matey!
      
      Next, let's look at the =printf=. This is just some function defined in
@@ -673,64 +686,3 @@
 
      Although I've got to say, it's been a fascinating dive. Maybe I'll do another sometime.
      But for now, it seems I'm still whispering incantations and watching bits flip.
-** notes
-   :PROPERTIES:
-   :EXPORT_HUGO_SECTION: notes
-   :END:
-   
-*** notes
-    :PROPERTIES:
-    :EXPORT_FILE_NAME: _index
-    :END:
-    This section is a ever-updating ever changing collection
-    of notes. If I'm doing my job right, they'll be super
-    interconnected like wikipedia. This style of notetaking
-    will hopefully create an emergent intelligence much 
-    smarter than myself. I am confident this will work
-    because I read about it on the internet.
-
-    So I join the ranks of those super
-    smart people - the best researchers! Most known
-    for their great and interconnected notes.
-
-    With the exception, of course, of Literally Every Researcher I Know.
-    
-    Anyways here are the broad categories... 
-      - Rationality
-      - Meditation
-      - Hacking
-
-    The plan is to make a page accessible from any other page.
-    
-*** Forward-Fake memories
-    :PROPERTIES:
-    :EXPORT_FILE_NAME: forward-fake-memories
-    :EXPORT_HUGO_AUTO_SET_LASTMOD: t
-    :END:
-     
-    These are memories (or, possible future scenarios)
-    which have not happened yet. For another topic see [[*Backward-Fake memories]]
-
-*** Backward-Fake memories
-    :PROPERTIES:
-    :EXPORT_FILE_NAME: backwards-fake-memories
-    :EXPORT_HUGO_AUTO_SET_LASTMOD: t
-    :END:
-    
-    Opposite to [[*Forward-Fake memories]], backward fake memories imagine strange
-    scenarios that /could have happened in the past/ but didn't. 
-** TIL
-   :PROPERTIES:
-   :EXPORT_HUGO_SECTION: TIL
-   :END:
-   
-*** TIL
-    :PROPERTIES:
-    :EXPORT_FILE_NAME: _index
-    :TOC: true
-    :END:
-    
-**** Today-I-learned
-     These are little shortform learnings... we learn a little
-     everyday :)
-   

@@ -65,15 +65,3 @@ staticDir = ["static"]
   name = "posts"
   title = "Posts"
   url = "/posts"
-
-[[menu.main]]
-  identifier = "notes"
-  name = "notes"
-  title = "Notes"
-  url = "/notes"
-
-[[menu.main]]
-  identifier = "TIL"
-  name = "TIL"
-  title = "Today I Learned"
-  url = "/TIL"

@@ -1,7 +1,7 @@
 +++
 title = "Trying to understand how my first program worked"
 author = ["Sina Khalili"]
-lastmod = 2020-09-10T19:30:55-07:00
+lastmod = 2020-11-24T05:35:16-08:00
 draft = false
 toc = "t"
 +++
